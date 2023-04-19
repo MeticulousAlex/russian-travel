@@ -3,4 +3,28 @@
   flex-direction: column;
   row-gap: 80px;
   padding: 92px 11.5625%;
+  width: 76.875%;
+}
+
+@media screen and (max-width: 1280px) {
+  .places {
+    padding: 92px 4.6875%;
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    row-gap: 72px;
+    padding: 88px 3.125% 90px;
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding: 64px 0 66px;
+    width: 100%;
+    row-gap: 50px;
+  }
 }

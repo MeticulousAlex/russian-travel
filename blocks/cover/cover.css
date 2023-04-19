@@ -1,22 +1,20 @@
 .cover {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   width: 92.5%;
-  min-height: 740px;
-  padding: 0 3.75% 92px;
+  height: calc(100vw * 0.925 * 0.625);
+  padding: 0 3.75% 92px 3.75%;
 }
 
-.cover:before {
-  content: ' ';
-  position: absolute;
-  width: 92.5%;
-  min-height: 740px;
-  background-image: url('../../images/To_the_Baikal_by_dogs.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  opacity: 0.7;
+@media screen and (max-width: 1280px) {
+  .cover {
+    padding: 0 0 92px 0;
+    width: 100%;
+    height: calc(100vw * 0.625);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding: 0 0 64px 0;
+  }
 }

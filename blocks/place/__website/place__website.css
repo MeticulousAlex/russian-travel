@@ -3,5 +3,24 @@
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: 48px;
-  width: 46.34%;
+  min-width: 46.34%;
+}
+
+@media screen and (max-width: 1280) {
+  .place__website {
+    min-width: 49.13%;
+  }
+}
+
+@media screen and (max-width: 1024) {
+  .place__website {
+    min-width: 48.8%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    width: 90%;
+    padding: 0 5% 32px;
+  }
 }

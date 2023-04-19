@@ -1,4 +1,12 @@
 .place {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    flex-direction: column;
+    align-items: center;
+  }
 }

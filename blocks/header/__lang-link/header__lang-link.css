@@ -4,4 +4,21 @@
   font-size: 1.5rem;
   font-family: 'Inter', sans-serif;
   text-decoration: none;
+  transition: opacity 0.1s linear;
+}
+
+.header__lang-link:first-child {
+  text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+    margin: 14px 0 8px 0;
+  }
 }

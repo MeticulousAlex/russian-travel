@@ -5,3 +5,23 @@
   max-width: 690px;
   color: white;
 }
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    padding-left: 4.6875%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 92px 3.125% 88px;
+    max-width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 64px 5% 64px;
+    max-width: 90%;
+  }
+}
