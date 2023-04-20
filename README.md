@@ -6,7 +6,8 @@
 
 Технологии:
 
-*Адаптивная вёрстка - @media
-*БЭМ (nested)
+\*Адаптивная вёрстка - @media
 
-## Ссылка на GitHub Pages:
+\*БЭМ (nested)
+
+## Ссылка на GitHub Pages: https://sas-not-gay.github.io/russian-travel/
