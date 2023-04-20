@@ -2,7 +2,7 @@
   position: relative;
   width: 92.5%;
   height: calc(100vw * 0.925 * 0.625);
-  padding: 0 3.75% 92px 3.75%;
+  padding: 0 3.75% 92px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -10,6 +10,12 @@
     padding: 0 0 92px 0;
     width: 100%;
     height: calc(100vw * 0.625);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding: 0 0 88px 0;
   }
 }
 

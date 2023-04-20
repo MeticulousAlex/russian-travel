@@ -5,6 +5,18 @@
   padding: 0 3.75% 24px;
 }
 
+@media screen and (max-width: 1280px) {
+  .footer {
+    padding: 0 4.6875% 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 0 3.125% 24px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     padding: 0 5% 24px;
