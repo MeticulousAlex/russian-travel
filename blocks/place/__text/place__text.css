@@ -1,18 +1,19 @@
 .place__text {
   display: flex;
   flex-direction: column;
+  width: 100%;
   max-width: calc(100% - 460px - 40px);
   row-gap: 27px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .place__text {
     width: 100%;
     max-width: calc(100% - 472px);
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place__text {
     width: 100%;
     max-width: calc(100% - 340px - 28px);
@@ -20,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__text {
     width: 100%;
     padding: 32px 5% 0;

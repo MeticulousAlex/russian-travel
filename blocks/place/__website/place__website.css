@@ -3,24 +3,28 @@
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: 48px;
-  min-width: 46.34%;
+  width: 100%;
+  max-width: calc(100% - 460px - 40px);
 }
 
-@media screen and (max-width: 1280) {
+@media screen and (max-width: 1279) {
   .place__website {
-    min-width: 49.13%;
+    width: 100%;
+    max-width: calc(100% - 472px);
   }
 }
 
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1023) {
   .place__website {
-    min-width: 48.8%;
+    width: 100%;
+    max-width: calc(100% - 340px - 28px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__website {
-    width: 90%;
+    max-width: 90%;
+    width: 100%;
     padding: 0 5% 32px;
   }
 }
