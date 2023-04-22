@@ -6,10 +6,16 @@
   line-height: 1.05;
   color: white;
   width: 560px;
+  padding: 245px 312px 32px;
   margin: 0;
-  padding-bottom: 32px;
   text-align: center;
   z-index: 1;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__title {
+    padding: 0 0 32px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -17,6 +23,7 @@
     font-size: 2rem;
     line-height: 1.09;
     max-width: 288px;
+    padding: 0 0 16px;
     width: 100%;
   }
 }
