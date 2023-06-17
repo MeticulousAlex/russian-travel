@@ -1,4 +1,4 @@
-#Educational project [russian-travel](https://pnrf.github.io/russian-travel/)
+# Educational project [russian-travel](https://pnrf.github.io/russian-travel/)
 
 _- this project was completed during my studies at Yandex Practicum_
 
