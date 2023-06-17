@@ -1,13 +1,22 @@
-### Проект: Путешествие по России
+#Educational project [russian-travel](https://pnrf.github.io/russian-travel/)
 
----
+_- this project was completed during my studies at Yandex Practicum_
 
-Проект посвященный путешествиям по России
+### Stack:
 
-Технологии:
+- HTML;
+- CSS;
+- BEM (Nested);
+- git/github;
+- Figma;
 
-\*Адаптивная вёрстка - @media
+### Project features:
 
-\*БЭМ (nested)
+- Flexbox, Grid layout;
+- adaptive layout using media queries;
+- semantical markup;
+- only russian language UI is available;
 
-## Ссылка на GitHub Pages: https://sas-not-gay.github.io/russian-travel/
+### Web page link :globe_with_meridians: :
+
+https://sas-not-g.github.io/russian-travel/
