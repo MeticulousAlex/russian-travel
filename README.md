@@ -1,22 +1,24 @@
-# Educational project [russian-travel](https://pnrf.github.io/russian-travel/)
+# Russian-travel
 
-_- this project was completed during my studies at Yandex Practicum_
+Учебный проект с целью ознакомления с адаптивной вёрсткой и Flexbox/grid layout
 
-### Stack:
-
+## Технологии
 - HTML;
 - CSS;
-- BEM (Nested);
-- git/github;
+- БЭМ (Nested);
 - Figma;
 
-### Project features:
+## Функционал
 
-- Flexbox, Grid layout;
-- adaptive layout using media queries;
-- semantical markup;
-- only russian language UI is available;
+- адаптивность блоков на странице под разрешения 1280/768/320px
 
-### Web page link :globe_with_meridians: :
 
-https://sas-not-g.github.io/russian-travel/
+## Ссылка на страницу проекта :globe_with_meridians: 
+
+- Russian travel: https://meticulousalex.github.io/russian-travel/
+
+## Обратная связь
+
+Если вы находите этот проект интересным или у вас есть какие либо комментарии, не стесняйтесь писать мне на aleksandr.smelov.web@gmail.com.
+
+
